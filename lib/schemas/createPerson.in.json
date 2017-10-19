@@ -1,0 +1,30 @@
+{
+  "type": "object",
+  "properties": {
+    "firstName": {
+      "type": "string",
+      "required": true,
+      "title": "First Name"
+    },
+    "lastName": {
+      "type": "string",
+      "required": true,
+      "title": "Last name"
+    },
+    "salutation": {
+      "type": "string",
+      "required": true,
+      "title": "Salutation"
+    },
+    "title": {
+      "type": "string",
+      "required": true,
+      "title": "Titel"
+    },
+    "phone": {
+      "type": "string",
+      "required": true,
+      "title": "Phone"
+    }
+  }
+}
