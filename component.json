@@ -56,6 +56,14 @@
         "in": "./lib/schemas/createOrganization.in.json",
         "out": "./lib/schemas/createOrganization.out.json"
       }
+    },
+    "updatePerson": {
+      "main": "./lib/actions/updatePerson.js",
+      "title": "Update Person",
+      "metadata": {
+        "in": "./lib/schemas/updatePerson.in.json",
+        "out": "./lib/schemas/updatePerson.out.json"
+      }
     }
   }
 }
