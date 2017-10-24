@@ -64,6 +64,14 @@
         "in": "./lib/schemas/updatePerson.in.json",
         "out": "./lib/schemas/updatePerson.out.json"
       }
+    },
+    "updateOrganization": {
+      "main": "./lib/actions/updateOrganization.js",
+      "title": "Update Organization",
+      "metadata": {
+        "in": "./lib/schemas/updateOrganization.in.json",
+        "out": "./lib/schemas/updateOrganization.out.json"
+      }
     }
   }
 }
